@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
+
+*{
+  margin: 0; padding: 0; outline: 0; border: none;
+  text-decoration: none; font-family: 'Open Sans', sans-serif;
+}
+body {
+  background: burlywood;
+  color: #333;
+}
+.header__container {
+    text-align: center;
+    border-bottom: 2px dotted;
+    margin-bottom: 15px;
+    background: brown;
+    color: #333;
+}
+video {
+  width: 96%;
+  height: auto;
+  background: #333;
+  margin: 0 2%;
+  border-radius: 8px;
+}
+h2.main__h2 {
+    text-align: center;
+    margin-top: 12px;
+}
+
+.main__div1 {margin-bottom: 15px;}
+
+main {
+  overflow: hidden;
+}
+
+.hidden {
+  display: none;
+}
+
+.row__flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.button{
+  background: linear-gradient(45deg, #e91e63, #9c27b0);
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.disabled:disabled{
+  opacity: 0.5;
+}
+
+@media only screen and (max-width: 400px){
+  .button{
+    padding: 5px 10px;
+    font-size: 13px;
+    margin-bottom: 13px;
+  }
+}
+
+@media only screen and (max-width: 350px){
+  .button{
+    padding: 2px 5px;
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 300px){
+  .button{
+    padding: 2px 10px;
+    font-size: 10px;
+  }
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Screen Recorder</title>
+	<!-- W3 CSS -->
+	<!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
+	<!-- Custom CSS -->
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	
+	<header>
+		<div class="container">
+			<div class="header__container">
+				<h1 class="">Screen Recorder</h1>
+			</div>
+		</div>
+	</header>
+
+	<main>
+		<div class="main__div" style="background: linear-gradient(59deg, #ff9800, #e91e63)">
+			<h2 class="main__h2">Video recorder</h2>
+
+			<video src="" autplay class="video__feedback w3-black w3-round-large"></video>
+
+			<div class="row__flex main__div1">
+				<button class="start__recording button">Record Screen</button>
+				<button class="stop__recording button disabled" disabled>Stop Recording</button>
+			</div>
+
+			<div class="recorded-video-wrap hidden main__div1">
+				<h2 class="main__h2">Recorded video</h2>
+
+				<video src="" controls class="recorded__video"></video>
+				<div class="row__flex">
+					<a class="download__video button disabled" disabled>Download</a>
+				</div>
+			</div>
+		</div>
+	</main>
+	<div style="font-weight: 600; color: wheat; background-color: #333; text-align: center; padding: 15px 0;"><p>Copyright to ❤ ARONNO GHOSH(KOUSHIK). ❤ </p></div>
+	<script src="script.js"></script>
+</body>
+</html>
